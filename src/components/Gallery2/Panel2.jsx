@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container, Row, Col, Image, Modal } from "react-bootstrap";
 
 
-export default function Panel ( { element: {title, image, content} } ) {
+export default function Panel2 ( { element: {title, image, content} } ) {
   const [show, setShow] = useState(false);
   const toggleShow = () => setShow(!show);
   

@@ -1,11 +1,11 @@
 import { Container, Row } from "react-bootstrap";
-import Panel from "./Panel.jsx";
-import data from "../../data/gallery.json";
+import Panel2 from "./Panel2.jsx";
+import data from "../../data/gallery2.json";
 
-export default function List() {
+export default function List2() {
 
   return (    
-    <Container id="gallery">
+    <Container id="gallery2">
       <Row className="d-flex justify-content-center g-4">
       {
         data.map( (element, index) => {
