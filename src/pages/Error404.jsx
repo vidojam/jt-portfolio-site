@@ -4,7 +4,7 @@ import AppLayout from "../layout/AppLayout"
 export default function Error404() {
 return (
   <AppLayout>
-    <Container>
+    <Container id="error404">
       <Row>
         <Col>
         <h1>Error 404</h1>

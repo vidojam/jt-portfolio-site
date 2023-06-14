@@ -1,10 +1,10 @@
 import { Container, Col, Row } from "react-bootstrap";
 import AppLayout from "../layout/AppLayout";
 
-export default function Home() {
+export default function Contact() {
   return (
     <AppLayout>
-      <Container>
+      <Container id="contact">
         <Row>
           <Col>
             <h2>Contact</h2>

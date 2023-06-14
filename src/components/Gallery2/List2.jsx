@@ -10,7 +10,7 @@ export default function List2() {
       {
         data.map( (element, index) => {
           return (
-            <Panel 
+            <Panel2 
               key={index}
               element={element} />
             );          

@@ -6,8 +6,8 @@ export default function Main() {
       <Container>
         <Row>
           <Col>
-             <p>Paragraph </p>
-          
+            <h1></h1>
+
           </Col>
         </Row>
       </Container>

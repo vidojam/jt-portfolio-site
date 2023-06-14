@@ -7,7 +7,7 @@ export default function Panel2 ( { element: {title, image, content} } ) {
   const toggleShow = () => setShow(!show);
   
   return (
-    <Col xs={11} sm={6} md={4} lg={3}
+    <Col xs={11} sm={6} md={3} lg={3}
       className="gallery-panel">
       <div onClick={toggleShow}>
         <Image src={image} fluid />

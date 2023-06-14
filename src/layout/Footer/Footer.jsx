@@ -1,13 +1,21 @@
 import { Container, Row, Col } from "react-bootstrap";
-export default function Footer () {
-  
+
+export default function Footer() {
+  const currentYear = new Date().getFullYear()
+  const gitHubUrl = ""
   return (
-    <footer>
+    <footer className="footer">
       <Container>
         <Row>
-          <Col className="text-center"><p>Footer</p></Col>
+          <Col>
+          <p>&copy; {currentYear} Jose Torres
+          <br/>
+          <a href={gitHubUrl}
+          target="_blank"
+          rel="noreferrer">Code in Github:https://github.com/vidojam/???</a></p>
+          </Col>
         </Row>
-      </Container>      
+      </Container>
     </footer>
   )
 }
