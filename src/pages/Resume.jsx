@@ -1,6 +1,6 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
-import ResumeImage from "/Users/josetorres/code/ux-ui-intern-projects/jt-portfolio-site/src/image/Jt-Resume.webp";
+import ResumeImage from "../layout/Jose_Torres_Resume.pdf"
 
 export default function Resume() {
   return (

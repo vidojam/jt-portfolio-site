@@ -1,20 +1,60 @@
-import { Container, Col, Row } from "react-bootstrap";
-import AppLayout from "../layout/AppLayout";
+import React, { useState } from 'react';
 
-export default function Contact() {
+const ContactForm = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Perform the necessary logic to send the email or process the form data
+    // You can use a library like axios to make an API request to a server-side endpoint
+
+    // Example code to demonstrate the form data
+    console.log('Name:', name);
+    console.log('Email:', email);
+    console.log('Message:', message);
+
+    // Reset the form fields
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
+
   return (
-    <AppLayout>
-      <Container id="contact">
-        <Row>
-          <Col>
-            <h2>Contact</h2>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloribus natus alias fugiat illum aliquid tenetur nemo neque quasi, distinctio amet odio officiis magni eius facere harum! Ea harum accusantium aspernatur sunt soluta nihil voluptates consectetur officia ipsa architecto error id at, corporis nesciunt nam. Numquam incidunt ut illum veritatis recusandae! In, tempore quam magni illo optio,
-            </p>
-          
-          </Col>
-        </Row>
-      </Container>
-    </AppLayout>
-  )
-}
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          required
+        />
+      </div>
+      <div>
+        <label htmlFor="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+        />
+      </div>
+      <div>
+        <label htmlFor="message">Message:</label>
+        <textarea
+          id="message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          required
+        ></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  );
+};
+
+export default ContactForm;

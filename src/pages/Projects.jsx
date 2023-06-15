@@ -9,7 +9,7 @@ export default function Projects() {
       <Container id="project">
         <Row>
           <Col className="text-center">
-            <h1>Projects</h1>
+            <h1 className="projTitle">Projects</h1>
           </Col>
         </Row>
 

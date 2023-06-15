@@ -1,18 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.soft-title {
+  margin-top: .50em;
+}
+
+
+.jtImg {
+  padding: 4em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   font-size:100px;
 }
 
 .projTitle {
-  font-size:50px;
+  font-size:100px;
+}
+
+.about-text, h2 {
+  font-size: 40px;
 }
 
 .aboutMeTitle {
   font-size:100px;
+  align-items: right;
+}
+
+.aboutme-text {
+  font-size: 100px;
 }
 
 .img-res {
   width: 80%;
   height: 80%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
 }
 
 .resumeCol-img {

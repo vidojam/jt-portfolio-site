@@ -15,7 +15,7 @@ export default function Projects() {
 
         <Row className="d-flex justify-content-center">
           <Col md={7}>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero nostrum fuga veniam est ad magni, incidunt accusamus veritatis, corporis, dolorem perferendis minima beatae aut ea culpa totam autem eligendi a. A, aperiam alias. Consequatur, voluptatum iste, quasi cum atque, facilis sequi minima doloribus asperiores aliquam nisi eveniet perferendis. Doloribus, quo.</p>
+          <p>My current interests include participating in Toastmaster speech and leadership events, engaging in bowling with the ultimate goal of achieving a perfect 300 game (my highest score so far is 289), and maintaining a regular exercise routine which includes completing a minimum of 100 pushups per day.</p>
           </Col>
         </Row>
       </Container>

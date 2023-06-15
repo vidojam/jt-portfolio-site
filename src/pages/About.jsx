@@ -11,13 +11,13 @@ export default function About() {
             <h1 className="soft-title">Software Engineer</h1>
           </Col>
           <Col className="about-img">
-            <Image src={joseImage} fluid />  
+            <Image className="jtImg" src={joseImage} fluid />  
           </Col>
         </Row>
 
-        <Row className="d-flex justify-content-center" font-size="200">
+        <Row className="d-flex justify-content-center" font-size="150">
           <Col md={10}>
-            <h2>
+            <h2 className="about-text">
               Motivated by my unyielding passion for software engineering, I embarked on a journey to retrain and reintegrate myself into the tech industry. Armed with five years of previous IT experience and fresh off graduating from the esteemed Boca Code bootcamp, I have specialized in JavaScript, React, Node.js, MongoDB, and various other programming languages. 
             </h2>
           </Col>
