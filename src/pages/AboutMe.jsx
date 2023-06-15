@@ -15,7 +15,7 @@ export default function Projects() {
 
         <Row className="d-flex justify-content-center">
           <Col md={7}>
-          <p>My current interests include participating in Toastmaster speech and leadership events, engaging in bowling with the ultimate goal of achieving a perfect 300 game (my highest score so far is 289), and maintaining a regular exercise routine which includes completing a minimum of 100 pushups per day.</p>
+          <p className="aboutme-text">My current interests include participating in Toastmaster speech and leadership events, engaging in bowling with the ultimate goal of achieving a perfect 300 game (my highest score so far is 289), and maintaining a regular exercise routine which includes completing a minimum of 100 pushups per day.</p>
           </Col>
         </Row>
       </Container>

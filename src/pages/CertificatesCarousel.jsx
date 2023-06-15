@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
 import { Carousel } from 'react-bootstrap';
+
+//import CertImage1 from "../public/images/CertImage1.jpg";
 import CertImage1 from "/Users/josetorres/code/ux-ui-intern-projects/jt-portfolio-site/src/image/CertImage1.jpg";
 import CertImage2 from "/Users/josetorres/code/ux-ui-intern-projects/jt-portfolio-site/src/image/CertImage2.jpg";
 import CertImage3 from "/Users/josetorres/code/ux-ui-intern-projects/jt-portfolio-site/src/image/CertImage3.jpg";

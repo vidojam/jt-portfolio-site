@@ -1,19 +1,28 @@
 body {
   margin: 0;
   padding: 0;
+  background-image:url("../public//images//Waterfalls.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
 }
 
 .soft-title {
-  margin-top: .50em;
+  margin-top: .10em;
 }
 
-
 .jtImg {
-  padding: 4em;
+  padding: 3em;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about-text, h2 {
+  font-size: 30px;
 }
 
 h1 {
@@ -24,9 +33,6 @@ h1 {
   font-size:100px;
 }
 
-.about-text, h2 {
-  font-size: 40px;
-}
 
 .aboutMeTitle {
   font-size:100px;
@@ -34,17 +40,10 @@ h1 {
 }
 
 .aboutme-text {
-  font-size: 100px;
+  font-size: 25px;
 }
 
-.img-res {
-  width: 80%;
-  height: 80%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 
-}
 
 .resumeCol-img {
 
@@ -54,4 +53,20 @@ h1 {
   text-align: center;
 }
 
+.mySkillsTitle {
+  text-align: center;
+}
+#skills {
+  margin-top:20px;
+  padding-left:  15px;
+  column-fill: white;
+}
+
+.contact {
+  margin-top: 18%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
 
