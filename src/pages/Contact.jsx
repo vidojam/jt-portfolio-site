@@ -11,7 +11,7 @@ const ContactForm = () => {
     e.preventDefault();
     // Perform the necessary logic to send the email or process the form data
     // You can use a library like axios to make an API request to a server-side endpoint
-    
+
 
     // Reset the form fields
     setName('');
@@ -30,7 +30,7 @@ const ContactForm = () => {
                 />
           <Col>
             <form onSubmit={handleSubmit}>
-            <h1 className="emailMeTitle">Email Me, For Free</h1>
+            <h1 className="emailMeTitle">Get In Touch</h1>
               <div>
                 <label className="name" htmlFor="name">Name:</label>
                 <input

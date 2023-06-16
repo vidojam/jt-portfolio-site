@@ -18,7 +18,7 @@ export default function About() {
         <Row className="d-flex justify-content-center" font-size="150">
           <Col md={10}>
             <h2 className="about-text">
-              Motivated by my unyielding passion for software engineering, I embarked on a journey to retrain and reintegrate myself into the tech industry. Armed with five years of previous IT experience and fresh off graduating from the esteemed Boca Code bootcamp, I have specialized in JavaScript, React, Node.js, MongoDB, and various other programming languages. 
+              With a passion for software engineering, I embarked on a journey to retrain and reintegrate myself into the tech industry. Armed with five years of previous IT experience and fresh off graduating from the esteemed Boca Code bootcamp, I have specialized in JavaScript, React, Node.js, MongoDB, and various other programming languages. 
             </h2>
           </Col>
           <Col className="text-center">

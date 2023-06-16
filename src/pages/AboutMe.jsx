@@ -15,7 +15,7 @@ export default function Projects() {
 
         <Row className="d-flex justify-content-center">
           <Col md={9}>
-          <p className="aboutme-text">My current hobbies include participating in Toastmaster speech and leadership events, bowling with a goal of achieving the perfect 300 game (highest so far is 289), and maintaining a regular exercise routine which includes bicyling and completing a minimum of 100 pushups per day.</p>
+          <p className="aboutme-text">My hobbies include participating in Toastmaster speech and leadership events, maintaining a regular exercise routine which includes bicyling and completing a minimum of 100 pushups per day and bowling with a goal of excercising and achieving the perfect 300 game (highest so far is 289).</p>
           </Col>
         </Row>
       </Container>

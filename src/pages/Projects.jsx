@@ -14,8 +14,8 @@ export default function Projects() {
         </Row>
 
         <Row className="d-flex justify-content-center">
-          <Col md={7}>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero nostrum fuga veniam est ad magni, incidunt accusamus veritatis, corporis, dolorem perferendis minima beatae aut ea culpa totam autem eligendi a. A, aperiam alias. Consequatur, voluptatum iste, quasi cum atque, facilis sequi minima doloribus asperiores aliquam nisi eveniet perferendis. Doloribus, quo.</p>
+          <Col md={9}>
+          <p className="projText">My software program projects demonstrate my practical experience in applying programming concepts and techniques. They show that I have hands-on experience with coding, debugging, testing, and project management.</p>
           </Col>
         </Row>
       </Container>

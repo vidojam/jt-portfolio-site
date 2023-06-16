@@ -16,7 +16,7 @@ const Skills = () => {
       <Container id="skills">
         <Row>
           <Col>
-          <h1 className="mySkillsTitle">My Skills</h1>
+          <p className="mySkillsTitle">Proficient in...</p>
           <img src={Icon1} alt="Icon 1" />
           <img src={Icon2} alt="Icon 2" />
           <img src={Icon3} alt="Icon 3" />
