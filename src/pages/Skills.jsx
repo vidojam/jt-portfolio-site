@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
 import Icon1 from '/Users/josetorres/code/ux-ui-intern-projects/jt-portfolio-site/src/icons/git.ico';
 import Icon2 from '/Users/josetorres/code/ux-ui-intern-projects/jt-portfolio-site/src/icons/mysql.ico';
@@ -14,6 +14,8 @@ const Skills = () => {
   return (
     <Layout>
       <Container id="skills">
+        <Row>
+          <Col>
           <h1 className="mySkillsTitle">My Skills</h1>
           <img src={Icon1} alt="Icon 1" />
           <img src={Icon2} alt="Icon 2" />
@@ -24,7 +26,8 @@ const Skills = () => {
           <img src={Icon6} alt="Icon 6" />
           <img src={Icon7} alt="Icon 7" />
           <img src={Icon8} alt="Icon 8" />
-      
+          </Col>
+        </Row>
       </Container>
     </Layout>
   );

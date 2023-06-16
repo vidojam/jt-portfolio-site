@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
 
 const ContactForm = () => {
@@ -26,6 +26,8 @@ const ContactForm = () => {
   return (
     <Layout>
       <Container className="contact">
+        <Row>
+        <Col>
         <form onSubmit={handleSubmit}>
         <h1 className="emailMeTitle">Email Me</h1>
           <div>
@@ -52,13 +54,17 @@ const ContactForm = () => {
             <label htmlFor="message">Message:</label>
             <textarea
               id="message"
+              rows="15"
+              cols="21"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              required
-            ></textarea>
+              required>
+            </textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button id="submit" type="submit">Submit</button>
         </form>
+        </Col>
+        </Row>
       </Container>
     </Layout>
   );
