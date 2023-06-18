@@ -4,10 +4,10 @@ import ResumeImage from "../layout/Jose_Torres_Resume.pdf"
 
 export default function Resume() {
   return (
-    
+
     <Layout>
       <Container id="resume">
-        <Row>
+        <Row> add 
           <Col className="resumeCol-img">
             <Image className= "img-res" src={ResumeImage} fluid />  
           </Col>

@@ -1,8 +1,8 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
-import joseImage from "/Users/josetorres/code/ux-ui-intern-projects/jt-portfolio-site/src/image/jose.webp";
 
 export default function About() {
+  const imagePath = process.env.PUBLIC_URL + '/images/jose.webp';
   return (
     <Layout>
       <Container id="about">
@@ -10,8 +10,8 @@ export default function About() {
           <Col className="text-center">
             <h1 className="soft-title">Software Engineer</h1>
           </Col>
-          <Col className="about-img">
-            <Image className="jtImg" src={joseImage} fluid />  
+          <Col className="about-img" >
+            <img className="jtImg" src={imagePath} alt="Jose" />
           </Col>
         </Row>
 
