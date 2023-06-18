@@ -4,7 +4,9 @@ import Layout from "../layout/AppLayout.jsx";
 import Gallery from "../components/Gallery2/index.jsx";
 
 export default function Projects() {
-  const imagePath = process.env.PUBLIC_URL;
+  const imagePath = process.env.PUBLIC_URL + '/images/bowling2.jpg';
+  const imagePath2 = process.env.PUBLIC_URL + '/images/bicycle.jpg';
+  const imagePath3 = process.env.PUBLIC_URL + '/TM.jpg';
 
 
   return (
@@ -24,7 +26,7 @@ export default function Projects() {
           </Col>
         </Row>
       </Container>
-      <Gallery imagePath={imagePath} />
+      <Gallery imagePath={imagePath} imagePath2={imagePath2} imagePath3={imagePath3}/>
     </Layout>
   );
 }
