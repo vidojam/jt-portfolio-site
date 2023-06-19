@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
 
