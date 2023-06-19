@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
+import email2jpeg from '../icons/email2.jpeg';
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -25,8 +26,7 @@ const ContactForm = () => {
         <Row>
         <Image fluid
                   className="d-block w-25"
-                  src="/images/email2.jpeg"
-                  alt="Email icon"
+                  src={email2jpeg} alt="email icon"
                 />
           <Col>
             <form onSubmit={handleSubmit}>

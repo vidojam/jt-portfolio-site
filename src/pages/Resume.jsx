@@ -1,16 +1,14 @@
-import { Container, Row, Col, Image, Nav } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
 import ResumeImage from "../layout/Jose_Torres_Resume.pdf"
 
 export default function Resume() {
   return (
-
     <Layout>
       <Container id="resume">
-        <Row> add 
+        <Row>
           <Col className="resumeCol-img">
-            {/* <Image className= "img-res" src={ResumeImage} fluid />   */}
-            <button className="btn-footer"><Nav.Link href="/images/Jose_Torres_Resume.pdf" rel="noreferrer" target="_blank">Resume</Nav.Link></button> 
+            <Image className= "img-res" src={ResumeImage} fluid />  
           </Col>
         </Row>
         <Row className="d-flex justify-content-center" font-size="200">

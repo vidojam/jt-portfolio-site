@@ -1,15 +1,8 @@
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import resume from "../../layout/Jose_Torres_Resume.pdf"
 
 export default function NavMenu () {
   
-  const handleButtonClick = () => {
-    // Perform the desired action here
-    // For example, open the resume in a new tab
-    window.open(resume, "_blank");
-  };
-
   return (
     <Navbar bg="dark" variant="dark" expand="md" sticky="top">  
       <Container id="navmenu">  
@@ -25,7 +18,7 @@ export default function NavMenu () {
             <Nav.Link as={Link} to="/certificates">Certificates</Nav.Link>    
             <Nav.Link as={Link} to="/skills">Skills</Nav.Link>    
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link> 
-            <Button class="cti" onClick={handleButtonClick} > <div class="CTI">Resumé</div> </Button>           
+            <Nav.Link to="/images/Jose_Torres_Resume.pdf" class="cti" > <div class="CTI">Resumé</div> </Nav.Link>           
           </Nav>  
         </Navbar.Collapse>  
       </Container>  

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
+import josewedp from '../icons/jose.webp';
 
 export default function About() {
   
@@ -12,7 +13,7 @@ export default function About() {
             <h1 className="soft-title">Software Engineer</h1>
           </Col>
           <Col className="about-img" >
-            <Image fluid className="jtImg" src={`/images/jose.webp`} alt="jose" />
+            <img className="jtImg" src={josewedp} fluid alt="josepic" />
           </Col>
         </Row>
 
