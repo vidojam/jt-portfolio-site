@@ -1,10 +1,11 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
 
 export default function About() {
-  const imagePath = process.env.PUBLIC_URL + './images/jose.webp';
- 
+
+  const imagePath = process.env.PUBLIC_URL + "/images/";
+  
   return (
     <Layout>
       <Container id="about">
@@ -13,8 +14,7 @@ export default function About() {
             <h1 className="soft-title">Software Engineer</h1>
           </Col>
           <Col className="about-img" >
-            <Image className="jtImg" src={imagePath} fluid alt="Jose" />
-            
+            <img className="jtImg" src={imagePath+"Jose.webp"} alt="pic-jose" />
           </Col>
         </Row>
 
