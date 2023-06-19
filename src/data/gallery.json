@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Evaluation Assistant - A program a designed to assist in the evaluation of a speakers speech structure, including the opening, body, and conclusion.",
-    "content": "A program a designed to assist in the evaluation of a speakers speech structure, including the opening, body, and conclusion.",
-    "image": "../images/bicycle.jpg"
+    "title": "This is a full stack to-do list application that uses React.js as the front-end library, Express as the back-end framework, and Firebase as the database and authentication service. The application is deployed on the Google Cloud Platform (GCP).",
+    "content": "To-do lists help individuals allocate their time wisely by providing a visual representation of tasks and deadlines, enabling them to plan their day or week more effectively.",
+    "image": "../images/Much_Todo.png"
   },
   {
     "id": 2,
-    "title": "Evaluation Assistant - A program a designed to assist in the evaluation of a speakers speech structure, including the opening, body, and conclusion.",
+    "title": "A program a designed to assist in the evaluation of a speakers speech structure, including the opening, body, and conclusion.- Evaluation Assistant Propram",
     "content": "A program a designed to assist in the evaluation of a speakers speech structure, including the opening, body, and conclusion.",
     "image": "../images/TM.png"
   },
   {
     "id": 3,
-    "title": "Evaluation Assistant - A program a designed to assist in the evaluation of a speakers speech structure, including the opening, body, and conclusion.",
-    "content": "A program a designed to assist in the evaluation of a speakers speech structure, including the opening, body, and conclusion.",
-    "image": "../images/bicycle.jpg"
+    "title": "This program is a login demo that demonstrates a secure and controlled access mechanism for users, allowing them to authenticate their identity before accessing specific features, protected content, or restricted areas of an application.",
+    "content": "Programmers can then adapt and customize based on their specific application requirements.",
+    "image": "../images/Timber_Login.png"
   } 
 ]
