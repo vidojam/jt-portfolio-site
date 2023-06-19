@@ -13,7 +13,7 @@ export default function About() {
             <h1 className="soft-title">Software Engineer</h1>
           </Col>
           <Col className="about-img" >
-            <img className="jtImg" src={josewedp} fluid alt="josepic" />
+            <Image className="jtImg" src={josewedp} fluid alt="josepic" />
           </Col>
         </Row>
 
