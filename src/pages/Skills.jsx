@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
 
-import Icon1 from '../icons/git.ico';
+import Icon1 from '../icons/git.png';
 import Icon2 from "../icons/mysql.ico";
 import Icon3 from "../icons/node.ico";
 import Icon4 from "../icons/js.ico";

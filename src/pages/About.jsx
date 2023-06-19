@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
 
 export default function About() {
-
-
   const imgPath = process.env.PUBLIC_URL + "/images/";
   
   return (
