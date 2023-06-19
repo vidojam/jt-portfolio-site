@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
 
 export default function About() {
-  const imagePath = process.env.PUBLIC_URL + '/images/jose.webp';
+  const imagePath = process.env.PUBLIC_URL + './images/jose.webp';
  
   return (
     <Layout>
