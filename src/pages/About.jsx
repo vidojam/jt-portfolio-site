@@ -12,7 +12,7 @@ export default function About() {
             <h1 className="soft-title">Software Engineer</h1>
           </Col>
           <Col className="about-img" >
-            <Image fluid className="jtImg" src={`${process.env.PUBLIC_URL}/images/jose.webp`} alt="jose" />
+            <Image fluid className="jtImg" src={`/images/jose.webp`} alt="jose" />
           </Col>
         </Row>
 
