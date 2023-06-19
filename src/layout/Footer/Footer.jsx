@@ -12,7 +12,7 @@ export default function Footer() {
           <br/>
           <a href={gitHubUrl}
           target="_blank"
-          rel="noreferrer">Code in Github:https://github.com/vidojam/???</a></p>
+          rel="noreferrer">Code in Github:https://github.com/vidojam/</a></p>
           </Col>
         </Row>
       </Container>
