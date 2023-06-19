@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
 
 export default function About() {
@@ -13,7 +13,7 @@ export default function About() {
             <h1 className="soft-title">Software Engineer</h1>
           </Col>
           <Col className="about-img" >
-            <img className="jtImg" src={imagePath} fluid alt="Jose" />
+            <Image className="jtImg" src={imagePath} fluid alt="Jose" />
             
           </Col>
         </Row>
