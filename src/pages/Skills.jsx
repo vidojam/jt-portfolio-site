@@ -20,7 +20,7 @@ const Skills = () => {
         <Row>
           <Col>
             <p className="mySkillsTitle">Proficient in...</p>
-            <img src={`${imagePath}/${Icon1}`} alt="Icon 1" />
+            <img src={`${imagePath}/${Icon1}`} fluid alt="Icon 1" />
             <img src={`${imagePath}/${Icon2}`} alt="Icon 2" />
             <img src={`${imagePath}/${Icon3}`} alt="Icon 3" />
             <img src={`${imagePath}/${Icon4}`} alt="Icon 4" />
