@@ -12,7 +12,6 @@ import typescriptIcon from "../icons/typescript.ico";
 import vscodeIcon from "../icons/vs-code.ico";
 
 const Skills = () => {
-  const imagePath = process.env.PUBLIC_URL;
 
   return (
     <Layout>
@@ -20,15 +19,15 @@ const Skills = () => {
         <Row>
           <Col>
             <p className="mySkillsTitle">Proficient in...</p>
-            <img src={`${imagePath}/${gitIcon}`} fluid alt="Icon 1" />
-            <img src={`${imagePath}/${mysqlIcon}`} alt="Icon 2" />
-            <img src={`${imagePath}/${nodeIcon}`} alt="Icon 3" />
-            <img src={`${imagePath}/${jsIcon}`} alt="Icon 4" />
+            <img src={gitIcon} fluid alt="Icon 1" />
+            <img src={mysqlIcon} alt="Icon 2" />
+            <img src={nodeIcon} alt="Icon 3" />
+            <img src={jsIcon} alt="Icon 4" />
             <br />
-            <img src={`${imagePath}/${npmIcon}`} alt="Icon 5" />
-            <img src={`${imagePath}/${reactIcon}`} alt="Icon 6" />
-            <img src={`${imagePath}/${typescriptIcon}`} alt="Icon 7" />
-            <img src={`${imagePath}/${vscodeIcon}`} alt="Icon 8" />
+            <img src={npmIcon} alt="Icon 5" />
+            <img src={reactIcon} alt="Icon 6" />
+            <img src={typescriptIcon} alt="Icon 7" />
+            <img src={vscodeIcon} alt="Icon 8" />
           </Col>
         </Row>
       </Container>
