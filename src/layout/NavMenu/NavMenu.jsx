@@ -36,11 +36,10 @@ export default function NavMenu() {
             <Nav.Link as={Link} to="/contact">
               Contact
             </Nav.Link>
-            <Button onClick={handleButtonClick}>Resumé</Button>
+            <Button href={ResumeImage}>Resumé</Button>
           </Nav>
-          <Nav.Link as={Link} to="/about">
-            About
-          </Nav.Link>
+        
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
