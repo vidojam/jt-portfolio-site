@@ -16,6 +16,7 @@ export default function NavMenu() {
 
         <Navbar.Toggle aria-controls="nav-navmenu" />
 
+
         <Navbar.Collapse id="nav-navmenu">
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/about">
