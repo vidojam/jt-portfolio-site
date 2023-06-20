@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
-import ResumeImage from "../layout/Jose_Torres_Resume.pdf";
+import ResumeImage from "./Jose_Torres_Resume.pdf";
 
 const handleButtonClick = () => {
   window.open(ResumeImage, "_blank");
@@ -13,7 +13,7 @@ export default function Resume() {
       <Container id="resume">
         <Row>
           <Col className="resumeCol-img">
-            <Image className="img-res" src={ResumeImage} fluid />
+            <Image className="img-res" href={ResumeImage} fluid />
             <Button onClick={handleButtonClick}>Resumé</Button>
           </Col>
         </Row>

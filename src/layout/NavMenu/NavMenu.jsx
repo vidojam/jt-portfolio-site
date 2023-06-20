@@ -38,8 +38,6 @@ export default function NavMenu() {
             </Nav.Link>
             <Button href={ResumeImage}>Resumé</Button>
           </Nav>
-        
-
         </Navbar.Collapse>
       </Container>
     </Navbar>

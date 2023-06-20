@@ -14,7 +14,7 @@ function App() {
   
   <BrowserRouter>
     <Routes>
-      <Route path="/about" element={<About />} />
+      <Route path="/" element={<About />} />
       <Route path="/aboutme" element={<AboutMe />} />
       <Route path="/project" element={<Projects />} />
       <Route path="/certificates" element={<CertificatesCarousel />} />
