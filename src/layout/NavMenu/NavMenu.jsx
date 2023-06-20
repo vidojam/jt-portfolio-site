@@ -37,7 +37,7 @@ export default function NavMenu() {
             <Nav.Link as={Link} to="/contact">
               Contact
             </Nav.Link>
-            <Button href={ResumeImage} rel="noreferrer" target="_blank">Resumé</Button>
+            <Button><Nav.Link href={ResumeImage} rel="noreferrer" target="_blank">Resumé</Nav.Link></Button>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -20,6 +20,8 @@ function App() {
       <Route path="/certificates" element={<CertificatesCarousel />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/contact" element={<Contact />} />
+      //<Route path="*" element={<About />} />
+
     </Routes>
   </BrowserRouter>
   )
