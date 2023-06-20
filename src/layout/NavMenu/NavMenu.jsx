@@ -6,7 +6,6 @@ const handleButtonClick = () => {
   window.open(ResumeImage, "_blank");
 };
 
-
 export default function NavMenu() {
   return (
     <Navbar bg="dark" variant="dark" expand="md" sticky="top">
@@ -39,6 +38,9 @@ export default function NavMenu() {
             </Nav.Link>
             <Button onClick={handleButtonClick}>Resumé</Button>
           </Nav>
+          <Nav.Link as={Link} to="/about">
+            About
+          </Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
