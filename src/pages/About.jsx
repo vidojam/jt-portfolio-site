@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Layout from "../layout/AppLayout.jsx";
-import josewedp from '../icons/jose.webp';
+import josewedp from '../icons/jose.png';
 
 export default function About() {
   
