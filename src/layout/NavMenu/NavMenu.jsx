@@ -1,10 +1,10 @@
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import ResumeImage from "./Jose_Torres_Resume.pdf";
+import ResumeImage from "./resume.pdf";
 
-const handleButtonClick = () => {
-  window.open(ResumeImage, "_blank");
-};
+// const handleButtonClick = () => {
+//   window.open(ResumeImage, "_blank");
+// };
 
 export default function NavMenu() {
   return (
@@ -36,7 +36,7 @@ export default function NavMenu() {
             <Nav.Link as={Link} to="/contact">
               Contact
             </Nav.Link>
-            <Button href={ResumeImage}>Resumé</Button>
+            <Button href={ResumeImage} rel="noreferrer" target="_blank">Resumé</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
