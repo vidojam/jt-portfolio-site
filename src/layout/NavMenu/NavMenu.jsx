@@ -1,6 +1,7 @@
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import ResumeImage from "../Jose_Torres_Resume.pdf"
+import ResumeImage from "./Jose_Torres_Resume.pdf"
+
 
 const handleButtonClick = () => {
 window.open(ResumeImage, "_blank");
