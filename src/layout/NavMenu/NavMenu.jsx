@@ -11,7 +11,7 @@ export default function NavMenu () {
   return (
     <Navbar bg="dark" variant="dark" expand="md" sticky="top">  
       <Container id="navmenu">  
-        <Navbar.Brand as={Link} to="/about"><h2>Portfolio</h2></Navbar.Brand>  
+        <Navbar.Brand as={Link} to="/about" ><h2 className="navtitle">Portfolio</h2></Navbar.Brand>  
 
         <Navbar.Toggle aria-controls="nav-navmenu" /> 
         

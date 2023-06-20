@@ -7,14 +7,18 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: black;
+}
+
+.navtitle {
+  color: white;
 }
 
 .soft-title {
   font-style:oblique;
   font-size: 100px;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: .40em;
+  color: black;
 }
 
 .jtImg {
@@ -32,6 +36,7 @@ body {
   text-align: right;
   margin-right: 150px;
   font-style:oblique;
+  color: black;
 }
 
 .about-text, h2 {
