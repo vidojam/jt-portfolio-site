@@ -14,7 +14,7 @@ export default function Resume() {
         <Row>
           <Col className="resumeCol-img">
             <Image className="img-res" href={ResumeImage} fluid />
-            <Button onClick={handleButtonClick}>Resumé</Button>
+            <Button href={ResumeImage}>Resumé</Button>
           </Col>
         </Row>
         <Row
